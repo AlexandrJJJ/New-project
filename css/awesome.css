@@ -8,7 +8,6 @@
 
 .awesome_container{
     width: 1170px;
-    /* margin: 0 169px 0 171px; */
     margin: 0 auto;
 }
 
@@ -16,7 +15,7 @@
     margin-top: 50px;
     width: 1170px;
     height: 150px;
-    font-family: 'Raleway';
+    font-family: Raleway, sans-serif;
     font-weight: 400;
     font-size: 36px;
     line-height: 150px;
@@ -35,7 +34,7 @@
     width: 1169px;
     height: 21px;
     margin: 40px 0 0 1px;
-    font-family: 'Raleway';
+    font-family: Raleway, sans-serif;
     font-weight: 400;
     font-size: 18px;
     line-height: 21px;
@@ -44,7 +43,7 @@
 }
 
 .awesome_container__content{
-    margin: 110px 0 0 0;
+    margin-top: 110px;
 }
 
 .awesome_container__item{
@@ -60,22 +59,20 @@
 .awesome_container__content h4{
     width: 369px;
     height: 100px;
-    font-family: 'Open Sans';
+    font-family: Open Sans, sans-serif;
     padding: 39px 0 8px 1px;
     font-weight: 700;
     font-size: 24px;
     line-height: 50px;
     text-align: center;
-    color: #000000;
 }
 
 .awesome_container__content h5{
     width: 370px;
     height: 105px;
-    font-family: 'Raleway';
+    font-family: Raleway, sans-serif;
     font-weight: 400;
     font-size: 18px;
     line-height: 21px;
     text-align: center;
-    color: #000000;
 }
