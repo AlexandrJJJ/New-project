@@ -1,0 +1,212 @@
+.customers-container{
+    font-family: 'Raleway', sans-serif;
+    margin-top: 50px;
+    width: 1170px;
+    margin: 0 auto;
+    position: relative;
+}
+
+.customers-container h2{
+    height: 150px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Raleway', sans-serif;
+    font-weight: 400;
+    font-size: 36px;
+    text-transform: uppercase;
+}
+
+.customers-container__separator{
+    width: 170px;
+    border: 1px solid #EC7979;
+    margin: 0 auto;
+}
+
+.customers-container__text{
+    margin-top: 40px;
+    height: 21px;
+    font-weight: 400;
+    font-size: 18px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #86878B;
+}
+
+.customers-container__items{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 83px;
+}
+
+.customers-container__items div{
+    width: 370px;
+    height: 180px;
+    background: #E2E2E2;
+    border-radius: 10px;
+    /* делать жесткие р-ры или можно все центрировать флексами? чуть что закомментить это и раскомментить паддинг внизу */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.customers-container__items h5{
+    font-weight: 400;
+    font-size: 18px;
+    text-align: center;
+    color: #86878B;
+    /* padding: 38px 0 37px 0; */
+}
+
+/* вариант с геометрическими фигурами CSS */
+
+/* .customers-container__triangles{
+    width: 1170;
+    display: flex;
+    justify-content: space-between;
+}
+
+.customers-container__triangles--first,
+.customers-container__triangles--second,
+.customers-container__triangles--third{
+    width: 0;
+	height: 0;
+	border-left: 20px solid transparent;
+	border-right: 20px solid transparent;
+	border-top: 40px solid #E2E2E2;
+}
+
+.customers-container__triangles section{
+    width: 370px;
+}
+
+.customers-container__triangles div{
+    margin-left: 70px;
+} */
+/* вариант с геометрическими фигурами CSS */
+
+/* вариант с картинками из макета */
+.customers-container__triangles{
+    display: flex;
+}
+
+.customers-container__triangles--first{
+    margin-left: 70px;
+}
+
+.customers-container__triangles--second{
+    margin-left: 370px;
+}
+
+.customers-container__triangles--thrid{
+    margin-left: 370px;
+}
+/* вариант с картинками из макета */
+
+.customers-container__people{
+    display: flex;
+    justify-content: space-between;
+}
+
+.customers-container__people--first{
+    display: flex;
+}
+
+/* .customers-container__people div{
+    width: 370px;
+} */
+
+.customers-container__people--first img{
+    position: absolute;
+    top: 540px;
+}
+
+.customers-container__people--first p:first-of-type{
+    width: 269px;
+    height: 54px;
+    position: absolute;
+    top: 540px;
+    left: 100px;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 54px;
+}
+
+.customers-container__people--first p:last-of-type{
+    width: 270px;
+    height: 21px;
+    position: absolute;
+    top: 609px;
+    left: 100px;
+    font-weight: 400;
+    font-size: 18px;
+}
+
+.customers-container__people--second{
+    display: flex;
+}
+
+.customers-container__people--second img{
+    position: absolute;
+    top: 540px;
+    left: 400px;
+}
+
+.customers-container__people--second p:first-of-type{
+    width: 269px;
+    height: 54px;
+    position: absolute;
+    top: 540px;
+    left: 500px;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 54px;
+}
+
+.customers-container__people--second p:last-of-type{
+    width: 270px;
+    height: 21px;
+    position: absolute;
+    top: 609px;
+    left: 500px; 
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 21px;
+}
+
+.customers-container__people--third{
+    display: flex;
+}
+
+.customers-container__people--third img{
+    position: absolute;
+    top: 540px;
+    left: 800px;
+}
+
+.customers-container__people--third p:first-of-type{
+    width: 269px;
+    height: 54px;
+    position: absolute;
+    top: 540px;
+    left: 900px;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 54px;
+}
+
+.customers-container__people--third p:last-of-type{
+    width: 270px;
+    height: 21px;
+    position: absolute;
+    top: 609px;
+    left: 900px;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 21px;
+}
