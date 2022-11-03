@@ -1,0 +1,57 @@
+.stylish-container{
+    font-family: Raleway, sans-serif;
+    height: 442px;
+    margin: 0 auto;
+    background-image: url(../images/background-stylish.png);
+    background-size: cover;
+    position: relative;
+    
+}
+
+.stylish-container__content{
+    height: 442px;
+    background: rgba(0, 0, 0, 0.5);
+    display: inline-block;  
+}
+
+.stylish-container h2{
+    width: 1170px;
+    height: 150px;
+    font-weight: 400;
+    font-size: 36px;
+    line-height: 150px;
+    color: #FFFFFF;
+    text-align: center;
+    margin: 50px 171px 0 169px;
+}
+
+.stylish-container__separator{
+    width: 170px;
+    border: 0.5px solid ;
+    color: #FFFFFF;
+    margin: 0 auto;
+}
+
+.stylish-container h5{
+    width: 1169px;
+    height: 21px;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 21px;
+    text-align: center;
+    color: #FFFFFF;
+    margin: 40px 171px 0 170px;
+}
+
+.stylish-container__button{
+    width: 370px;
+    height: 58px;
+    border: 2px solid #FFFFFF;
+    font-family: 'Open Sans';
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 58px;
+    color: #FFFFFF;
+    text-align: center;
+    margin: 73px 570px 50px 570px;
+}
