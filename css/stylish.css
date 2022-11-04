@@ -2,9 +2,10 @@
     font-family: Raleway, sans-serif;
     height: 442px;
     margin: 0 auto;
+    margin-top: 64px;
     background-image: url(../images/background-stylish.png);
     background-size: cover;
-    position: relative;
+    /* position: relative; */
     
 }
 

@@ -1,21 +1,137 @@
 .axit-container{
     height: 951px;
-    margin: 0 auto;
     background-image: url(../images/background-axit.png);
     background-size: cover;
-    
 }
 
 .axit-container__content{
     height: 951px;
+    background: rgba(0, 0, 0, 0.5);
+    display: flex;
 }
 
 .axit-container__left{
     width: 670px;
     height: calc(58px + 42px + 42px + 42px + 1px + 55.12px + 168px + 72.88px + 55px);
+    margin: 231px 0 185px 170px;
+}
+
+.axit-container__logo{
+    display: flex;
+    width: 165px;
+    height: 55px;
+}
+
+.axit-container__left h1{
+    width: 670px;
+    height: 168px;
+    font-family: 'Raleway', sans-serif;
+    font-weight: 500;
+    font-size: 48px;
+    text-transform: uppercase;
+    color: #FFFFFF;
+    margin-top: 72.88px;
+}
+
+.axit-container__separator{
+    width: 170px;
+    border: 0.5px solid #FFFFFF;
+    margin-top: 55.12px;
+}
+
+.axit-container__left h5{
+    width: 270px;
+    height: 42px;
+    font-family: 'Raleway', sans-serif;
+    font-weight: 400;
+    font-size: 18px;
+    color: #FFFFFF;
+    margin-top: 42px;
+}
+
+.axit-container__first-button{
+    width: 270px;
+    height: 58px;
+    border: 2px solid #FFFFFF;
+    color: #FFFFFF;
+    text-align: center;
+    line-height: 58px;
+    margin-top: 42px;
 }
 
 .axit-container__right{
     width: 470px;
     height: 450px;
+    background: #FFFFFF;
+    border-radius: 10px;
+    margin: 208px 170px 293px 30px;
+}
+
+.axit-container__right h4{
+    width: 367px;
+    height: 90px;
+    font-family: 'Open Sans';
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 90px;
+    text-align: center;
+    text-transform: uppercase;
+    color: #333333;
+    margin: 0 50px 0 53px;
+}
+
+.axit-container__right span{
+    color: #EC7979;
+}
+
+.axit-container__form{
+    width: 370px;
+    padding-left: 50px;
+
+}
+
+.axit-container__inputs{
+    display: inline-flex;
+    flex-direction: column;
+    height: 300px;
+}
+
+.axit-container__right input{
+    border: none;
+    border-bottom: 1px solid #BDBDBD;
+    width: 370px;
+    height: calc(16px + 19px + 16px);
+    /* margin-top: 52px; */
+}
+
+.axit-container__right input:not(:first-child){
+    margin-top: 33px;
+}
+
+.axit-container__right input:first-child{
+    margin-top: 45px;
+}
+
+.axit-container__right input:last-child{
+    margin-bottom: 75px;
+}
+
+.axit-container__right input::placeholder{
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 400;
+    font-size: 14px;
+    color: #BDBDBD;
+}
+
+.axit-container__second-button{
+    width: 470px;
+    height: 60px;
+    background: #EC7979;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 600;
+    font-size: 15px;
+    line-height: 60px;
+    text-align: center;
+    color: #FFFFFF;
+    border-radius: 0px 0px 10px 10px;
 }
