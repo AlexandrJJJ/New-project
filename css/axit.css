@@ -57,6 +57,18 @@
     text-align: center;
     line-height: 58px;
     margin-top: 42px;
+    cursor: pointer;
+}
+
+.axit-container__first-button:hover{
+    color: #EC7979;
+    border: 2px solid #EC7979;
+}
+
+.axit-container__first-button:active{
+    background: #AB4949;
+    border: 2px solid #AB4949;
+    color: #FFFFFF;
 }
 
 .axit-container__right{

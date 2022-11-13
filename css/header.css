@@ -17,6 +17,15 @@ header button{
     background: none;
     width: 113.8px;
     height: 100%;
+    cursor: pointer;
+}
+
+header button:hover{
+    background: #EC7979;
+}
+
+header button:active{
+    background: #AB4949;
 }
 
 .logo-container{

@@ -46,11 +46,6 @@
     height: 180px;
     background: #E2E2E2;
     border-radius: 10px;
-    /* делать жесткие р-ры или можно все центрировать флексами? чуть что закомментить это и раскомментить паддинг внизу */
-    display: flex;
-    justify-content: center;
-    align-items: center;
-
 }
 
 .customers-container__items h5{
@@ -58,7 +53,6 @@
     font-size: 18px;
     text-align: center;
     color: #86878B;
-    /* padding: 38px 0 37px 0; */
 }
 
 .customers-container__triangles{
@@ -81,6 +75,12 @@
     height: 180px;
     display: flex;
     justify-content: space-between;
+}
+
+.customers-container__items div{
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 
 .customers-container__people--first,
